@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+backend/.venv/
+__pycache__/
+*.pyc
+
+# Production Builds
+dist/
+frontend/dist/
+build/
+
+# Environment Variables & Secrets (Keep private!)
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Logs & Cache
+*.log
+npm-debug.log*
+yarn-debug.log*
+.vite/
+.eslintcache
+
+# Local Persistent Database
+backend/data/*.json
+backend/data/
+
+# OS Files
+.DS_Store
+Thumbs.db
